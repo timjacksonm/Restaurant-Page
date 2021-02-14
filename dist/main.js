@@ -10,6 +10,6 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-eval("alert('hello');\n\n//# sourceURL=webpack://Resturant-Page/./src/index.js?");
+eval("\n\n//# sourceURL=webpack://Resturant-Page/./src/index.js?");
 /******/ })()
 ;
