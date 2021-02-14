@@ -41,7 +41,17 @@ body {
 .header li {
   list-style: none;
   padding: 0 5px;
+}
+.header input {
+  height: 35px;
+  background: none;
+  border: none;
+  color: #fff;
   font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 6px;
+  cursor: pointer;
 }
 /* MAIN | CENTER OF PAGE */
 .main {
@@ -84,7 +94,7 @@ body {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .header li {
+  .header input {
     font-size: 24px;
   }
   .main {
