@@ -75,8 +75,10 @@ body {
 }
 .menuBox {
   display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
   width: 90%;
-  height: 98%;
+  height: 75vh;
   background: rgba(12, 12, 13, 0.78);
   border: 1px solid red;
   padding: 0px;
@@ -86,12 +88,13 @@ body {
   display: flex;
   flex-direction: column;
   word-wrap: normal;
-  max-width: 200px;
+  max-width: 250px;
   white-space: normal;
   align-items: center;
   text-align: center;
   padding: 2%;
   line-height: normal;
+  border-bottom: 1px solid red;
 }
 .menuBox li img {
   width: 150px;
@@ -100,7 +103,8 @@ body {
 }
 .menuBox p {
   margin: 1px;
-  width: 200px;
+  padding: 5px;
+  width: 240px;
 }
 /* FOOTER | BOTTOM OF PAGE */
 .footer {
