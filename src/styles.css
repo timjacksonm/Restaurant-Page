@@ -53,6 +53,9 @@ body {
   line-height: 6px;
   cursor: pointer;
 }
+.header input:hover {
+  border: 1px solid #fff;
+}
 /* MAIN | CENTER OF PAGE */
 .home,
 .menu,
