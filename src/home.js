@@ -15,7 +15,7 @@ const homePage = (function() {
 
     content.appendChild(main).className += 'home';
     main = document.querySelector('main');
-    main.appendChild(document.createElement('img')).src = "/Resturant-Page/src/images/logo8.svg";
+    main.appendChild(document.createElement('img')).src = "/Resturant-Page/dist/images/logo8.svg";
     main.appendChild(document.createElement('h1')).textContent = 'Store Bought Pizza';
     main.appendChild(document.createElement('h4')).textContent = 'You heard that right.';
 
@@ -24,7 +24,7 @@ const homePage = (function() {
     footer.appendChild(document.createElement('p')).textContent = 'Created by Tim Jackson';
     footer.appendChild(document.createElement('div')).className += 'logo';
     footer.querySelector('.logo').appendChild(document.createElement('a')).href = 'https://github.com/timjacksonm';
-    footer.querySelector('.logo').querySelector('a').appendChild(document.createElement('img')).src += '/Resturant-Page/src/images/GitHub-Mark-Light-32px.png';
+    footer.querySelector('.logo').querySelector('a').appendChild(document.createElement('img')).src += '/Resturant-Page/dist/images/GitHub-Mark-Light-32px.png';
 };
     const homeTab = () => {
         main = document.querySelector('main');
