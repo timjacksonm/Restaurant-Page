@@ -13,7 +13,7 @@ const homePage = (function() {
     header.appendChild(document.createElement('li')).appendChild(document.createElement('input')).value = 'Contact';
     document.querySelectorAll('input').forEach(input => input.setAttribute('type', 'button'));
 
-    content.appendChild(main).className += 'main';
+    content.appendChild(main).className += 'home';
     main = document.querySelector('main');
     main.appendChild(document.createElement('img')).src = "/Resturant-Page/src/images/logo8.svg";
     main.appendChild(document.createElement('h1')).textContent = 'Store Bought Pizza';
@@ -28,6 +28,7 @@ const homePage = (function() {
 };
     const homeTab = () => {
         main = document.querySelector('main');
+        main.className = 'home';
         main.appendChild(document.createElement('img')).src = "/Resturant-Page/src/images/logo8.svg";
         main.appendChild(document.createElement('h1')).textContent = 'Store Bought Pizza';
         main.appendChild(document.createElement('h4')).textContent = 'You heard that right.';

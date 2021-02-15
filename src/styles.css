@@ -54,7 +54,8 @@ body {
   cursor: pointer;
 }
 /* MAIN | CENTER OF PAGE */
-.main {
+.home,
+.menu {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,8 +69,19 @@ body {
   width: 100%;
   padding-top: 13px;
 }
-.main img {
+.home img {
   transform: rotate(180deg);
+  width: 150px;
+}
+.menuBox {
+  display: flex;
+  width: 90%;
+  height: 98%;
+  background: rgba(12, 12, 13, 0.78);
+  border: 1px solid red;
+  padding: 0px;
+}
+.menuBox img {
   width: 150px;
 }
 /* FOOTER | BOTTOM OF PAGE */
