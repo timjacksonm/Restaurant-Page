@@ -80,9 +80,27 @@ body {
   background: rgba(12, 12, 13, 0.78);
   border: 1px solid red;
   padding: 0px;
+  justify-content: center;
 }
-.menuBox img {
+.menuBox li {
+  display: flex;
+  flex-direction: column;
+  word-wrap: normal;
+  max-width: 200px;
+  white-space: normal;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+  line-height: normal;
+}
+.menuBox li img {
   width: 150px;
+  margin: 1px;
+  border-radius: 10%;
+}
+.menuBox p {
+  margin: 1px;
+  width: 200px;
 }
 /* FOOTER | BOTTOM OF PAGE */
 .footer {
