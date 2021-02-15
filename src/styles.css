@@ -65,7 +65,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   line-height: 2px;
-  font-size: 15px;
+  font-size: 13px;
   flex: 1;
   width: 100%;
   padding-top: 13px;
@@ -81,7 +81,6 @@ body {
   width: 90%;
   height: 75vh;
   background: rgba(12, 12, 13, 0.78);
-  border: 1px solid red;
   padding: 0px;
   justify-content: center;
 }
@@ -101,29 +100,28 @@ body {
   margin: 1px;
   border-radius: 10%;
 }
-.menuBox p {
+.menuBox p,
+.contactBox p {
   margin: 1px;
   padding: 5px;
-  width: 240px;
+  width: 90%;
 }
 .contactBox {
   display: flex;
   flex-direction: column;
-  height: 75vh;
-  width: 45vh;
-  background: rgba(12, 12, 13, 0.78);
+  height: 67vh;
+  width: 43vh;
   white-space: normal;
-  line-height: normal;
   align-items: center;
   text-align: center;
+  white-space: normal;
   padding: 2%;
-}
-.contactBox p {
-  width: 40vh;
+  line-height: normal;
+  background: rgba(12, 12, 13, 0.78);
 }
 .mapBox {
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 90%;
   border: 1px solid red;
 }
 /* FOOTER | BOTTOM OF PAGE */
@@ -148,6 +146,11 @@ body {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .home,
+  .menu,
+  .contact {
+    font-size: 18px;
+  }
   .header input {
     font-size: 24px;
   }
@@ -158,9 +161,27 @@ body {
   .main img {
     width: 200px;
   }
-}
+  .menuBox {
+    width: 60vh;
+  }
+  .menuBox li {
+    border: 1px solid red;
+    margin: 2%;
+  }
+  .contactBox {
+    width: 60vh;
+  }
+  .contactBox p {
+    width: 70%;
+  }
+  .mapBox {
+    width: 70%;
+  }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .menuBox {
+    width: 72vh;
+  }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {

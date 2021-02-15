@@ -1,19 +1,19 @@
 const contactPage = (function() {
     
-        function initMap() {
-            // The location of Tuvalu
-            const tuvalu = { lat: 7.1095, lng: 177.6493 };
-            // The map, centered at Tuvalu
-            const map = new google.maps.Map(document.querySelector('.mapBox'), {
-              zoom: 4,
-              center: tuvalu,
-            });
-            // The marker, positioned at Tuvalu
-            const marker = new google.maps.Marker({
-              position: tuvalu,
-              map: map,
-            });
-          }
+        // function initMap() {
+        //     // The location of Tuvalu
+        //     const tuvalu = { lat: 7.1095, lng: 177.6493 };
+        //     // The map, centered at Tuvalu
+        //     const map = new google.maps.Map(document.querySelector('.mapBox'), {
+        //       zoom: 4,
+        //       center: tuvalu,
+        //     });
+        //     // The marker, positioned at Tuvalu
+        //     const marker = new google.maps.Marker({
+        //       position: tuvalu,
+        //       map: map,
+        //     });
+        //   }
     const contactTab = () => {
         const main = document.querySelector('main');
         main.className = 'contact';
