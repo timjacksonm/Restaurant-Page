@@ -18,7 +18,7 @@ const menuPage = (function() {
     7: pizzaFactory('HotPockets Ham & Cheddar', '/Resturant-Page/src/images/Hotpocket-ham-and-cheddar.jpeg', 'Savory hickory ham. A hearty snack made with loads of premium meat and cheese that\s ready in minutes', '2ct', '$5.99'),
 };
     const menuTab = () => {
-        const main = document.querySelector('main')
+        const main = document.querySelector('main');
         main.className = 'menu';
         let box = document.createElement('ul');
         main.appendChild(box).className += 'menuBox';
@@ -32,12 +32,12 @@ const menuPage = (function() {
             selectLi.appendChild(document.createElement('p')).textContent = pizzaMenu[i].price;
             selectLi.appendChild(document.createElement('p')).textContent = pizzaMenu[i].quantity;
             selectLi.appendChild(document.createElement('p')).textContent = pizzaMenu[i].description;
-        }
-    }
+        };
+    };
 
     return {
         menuTab: menuTab,
-    }
+    };
 })();
 
 export { menuPage };

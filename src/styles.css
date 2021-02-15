@@ -55,7 +55,8 @@ body {
 }
 /* MAIN | CENTER OF PAGE */
 .home,
-.menu {
+.menu,
+.contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,7 +88,6 @@ body {
 .menuBox li {
   display: flex;
   flex-direction: column;
-  word-wrap: normal;
   max-width: 250px;
   white-space: normal;
   align-items: center;
@@ -105,6 +105,26 @@ body {
   margin: 1px;
   padding: 5px;
   width: 240px;
+}
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  width: 45vh;
+  background: rgba(12, 12, 13, 0.78);
+  white-space: normal;
+  line-height: normal;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+}
+.contactBox p {
+  width: 40vh;
+}
+.mapBox {
+  height: 350px;
+  width: 350px;
+  border: 1px solid red;
 }
 /* FOOTER | BOTTOM OF PAGE */
 .footer {
