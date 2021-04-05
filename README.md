@@ -23,7 +23,9 @@
   <summary>Show Image</summary>
   
   ![Static Home](dist/images/Home.png)
+  
   The next two photos show responsive web design implementation for Iphone and Ipad.
+  
   ![RWD Iphone](dist/images/MenuIphone.png)
   ![RWD Ipad](dist/images/MenuIpad.png)
 </details>
