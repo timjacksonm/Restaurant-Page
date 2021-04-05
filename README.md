@@ -22,9 +22,9 @@
 <details>
   <summary>Show Image</summary>
   
-  ![Static Home](dist/images/)
-  ![Static Menu](dist/images/)
-  ![Static Contact](dist/images/)
+  ![Static Home](dist/images/Home.png)
+  ![RWD Iphone](dist/images/MenuIphone.png)
+  ![RWD Ipad](dist/images/MenuIpad.png)
 </details>
 
 ## Goals:
