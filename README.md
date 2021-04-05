@@ -2,7 +2,7 @@
   <br>
   Restuarant-Page
   <br>
-  <image src="dist/images/logo8.svg" width="50%"> 
+  <image src="dist/images/logo9.svg" width="150px"> 
 </h1>
 
 <h4 align="center">Not your local restaurant - located in Tuvalu. Project created with HTML, CSS, Javascript.</h4>
