@@ -41,7 +41,7 @@
 
 ## Summary
 
-
+This projects focus was implementing ES6 Modules and practicing DOM manipulation by dynamically rendering a simple restaurant homepage. I enjoyed working with ES6 Modules as it made my code easier to read. FYI Bellatoria is the best pizza you can buy at my restaurant in my opinion (choices are slim). Enjoy!
 
 ## Author
 
