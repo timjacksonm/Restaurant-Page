@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  Restuarant-Page
+  Restaurant-Page
   <br>
   <image src="dist/images/logo9.svg" width="150px"> 
 </h1>
