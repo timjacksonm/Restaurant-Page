@@ -26,8 +26,17 @@
   
   The next two photos show responsive web design implementation for Iphone and Ipad.
   
+---
+
+  
   ![RWD Iphone](dist/images/MenuIphone.png)
+  
+---
+
   ![RWD Ipad](dist/images/MenuIpad.png)
+  
+---
+
 </details>
 
 ## Goals:
